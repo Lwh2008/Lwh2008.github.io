@@ -1,0 +1,45 @@
+<% if(page.type == 404) { %>
+    <%- partial('404', {post: page}) %>
+<% }else{ %>
+    <!DOCTYPE html>
+    <html <% if (config.language) { %>lang="<%- config.language %>"
+            <% } %>
+          <% if (theme.dark_mode.enable) { %>data-theme="dark"
+            <% } %>
+    >
+    <%- partial('_partial/head', {post: page}) %>
+    <body>
+    <%- partial('_partial/loader') %>
+    <div id="container">
+        <div id="wrap">
+            <%- partial('_partial/header', {post: page}, {cache: false}) %>
+            <div id="content" class="outer">
+                <section id="main"><%- body %></section>
+                <% if (theme.sidebar){ %>
+                    <%- partial('_partial/sidebar', null) %>
+                <% } %>
+            </div>
+            <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+        </div>
+        <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
+        <%- partial('_partial/after-footer') %>
+    </div>
+    <div class="site-search">
+        <div class="algolia-popup popup">
+            <div class="algolia-search">
+                <span class="algolia-search-input-icon"></span>
+                <div class="algolia-search-input" id="algolia-search-input"></div>
+            </div>
+
+            <div class="algolia-results">
+                <div id="algolia-stats"></div>
+                <div id="algolia-hits"></div>
+                <div id="algolia-pagination" class="algolia-pagination"></div>
+            </div>
+
+            <span class="popup-btn-close"></span>
+        </div>
+    </div>
+    </body>
+    </html>
+<% } %>
