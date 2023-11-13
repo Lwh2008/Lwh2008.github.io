@@ -65,10 +65,17 @@
         
           <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
         
+<<<<<<< HEAD
         <a class="nav-icon nav-search-btn" title="Suche"><span class="fa fa-search"></span></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://lwh.personal.top"></form>
+=======
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://lwh.personal.top"></form>
+>>>>>>> a600b16 (4)
       </div>
     </div>
   </div>
@@ -78,7 +85,11 @@
         <section id="main"><article id="post-2023-11-11" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/undefined.140.228.202" class="article-date">
+<<<<<<< HEAD
   <time class="dt-published" datetime="2023-11-10T17:38:49.000Z" itemprop="datePublished">2023-11-10</time>
+=======
+  <time class="dt-published" datetime="2023-11-10T17:38:49.000Z" itemprop="datePublished">2023-11-11</time>
+>>>>>>> a600b16 (4)
 </a>
     
   </div>
@@ -102,7 +113,11 @@
       
     </div>
     <footer class="article-footer">
+<<<<<<< HEAD
       <a data-url="http://lwh.personal.top/undefined.140.228.202" data-id="clov5drgz0003zwvxc8sfcy9x" data-title="2023.11.11" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+=======
+      <a data-url="http://lwh.personal.top/undefined.140.228.202" data-id="clov5drgz0003zwvxc8sfcy9x" data-title="2023.11.11" class="article-share-link"><span class="fa fa-share">Share</span></a>
+>>>>>>> a600b16 (4)
       
       
       
@@ -113,7 +128,11 @@
 <nav id="article-nav">
   
     <a href="/undefined.140.228.202" id="article-nav-newer" class="article-nav-link-wrap">
+<<<<<<< HEAD
       <strong class="article-nav-caption">Neuer</strong>
+=======
+      <strong class="article-nav-caption">Newer</strong>
+>>>>>>> a600b16 (4)
       <div class="article-nav-title">
         
           2023.11.11-关于
@@ -142,7 +161,11 @@
   
     
   <div class="widget-wrap">
+<<<<<<< HEAD
     <h3 class="widget-title">Archiv</h3>
+=======
+    <h3 class="widget-title">Archives</h3>
+>>>>>>> a600b16 (4)
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">十一月 2023</a></li></ul>
     </div>
@@ -152,7 +175,11 @@
   
     
   <div class="widget-wrap">
+<<<<<<< HEAD
     <h3 class="widget-title">letzter Beitrag</h3>
+=======
+    <h3 class="widget-title">Recent Posts</h3>
+>>>>>>> a600b16 (4)
     <div class="widget">
       <ul>
         
